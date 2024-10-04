@@ -22,7 +22,7 @@ hide:
 			<div class="section-wrapper">
 				<div class="hero-content-flex">
 					<div class="hero-left">
-						<h1 class="hero-heading">Test Review AGAIN 30/9 - small change to trigger build</h1>
+						<h1 class="hero-heading">The Polygon Knowledge Layer</h1>
 						<p class="hero-subtext">Welcome to the technical documentation and knowledge resources for Polygon protocols and scaling technologies.</p>
 						<p class="hero-subtext"> Learn how to build and deploy dApps, launch ZK rollups and validiums as Layer 2s on Ethereum, spin up nodes, and find out about the latest in zero-knowledge research.</p>
 					</div>
@@ -52,7 +52,7 @@ hide:
 							</div>
 							<p class="feature-paragraph">Deploy a dApp on the widely adopted Polygon Proof-of-Stake protocol, an EVM-compatible environment optimized for high throughput and low transaction fees.</p>
 						</a>
-						<a href="cdk/get-started/quickstart/deploy-stack" class="flex-card-item w-inline-block">
+						<a href="zkEVM" class="flex-card-item w-inline-block">
 							<div class="product-list-item-header">
 								<div class="feature-card-heading">Polygon zkEVM</div>
 								<div class="arrow-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" display="block" width="100%" height="auto" viewbox="0 0 16 17" fill="none">
