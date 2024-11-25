@@ -42,11 +42,18 @@ Options:
 * `-c, --components <COMPONENTS>` - Components to run [env: `CDK_COMPONENTS=`]
 * `-h, --help` - Print help
 
-Example:
+Example to run in FEP mode:
 
 ```
 cdk node --config /etc/cdk/cdk-node-config.toml --components sequence-sender,aggregator
 ```
+
+Example to run in PP mode:
+
+```
+cdk node --config /etc/cdk/cdk-node-config.toml --components rpc,aggsender
+```
+
 
 ### `cdk erigon`
 
@@ -57,8 +64,8 @@ This subcommand is intended for quickly spinning up an RPC node or testing exist
 Usage: `cdk erigon [OPTIONS]`
 
 Options:
-* `-C, --config <CONFIG>` - The path to the configuration file [env: `CDK_CONFIG_PATH=`]
-* `-g, --chain <CHAIN>` - The path to a chain specification file [env: `CDK_GENESIS_PATH=`]
+* `-C, --config <CONFIG>` - The path to the cdk-node configuration file [env: `CDK_CONFIG_PATH=`]
+* `-g, --chain <CHAIN>` - The path to the genesis.json file [env: `CDK_GENESIS_PATH=`]
 * `-h, --help` - Print help
 
 ```
